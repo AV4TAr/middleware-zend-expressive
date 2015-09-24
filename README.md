@@ -19,12 +19,15 @@ Cargar los diferentes ejemplos (1,2,3,4...php):
 ~ php -S localhost:8080 public/0.php
 ```
 
-### 0
+### 0.php
+Inicialización basica de la aplicación. En la ruta ```/``` simplemente imprimimos un "Hola Mundo".
 
-### 1
+### 1.php
+Implementamos una API de Personas. En el endpoint ```/personas``` se imprimirá una lista separada por comas de las personas. Podemos seleccionar 1 persona accediendo al endpoint ```/personas/Diego```
 
-### 2
 
-### 3
+### 2.php
 
-### 4
+### 3.php
+
+### 4.php

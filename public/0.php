@@ -7,7 +7,7 @@ $loader = require 'vendor/autoload.php';
 
 $app = AppFactory::create();
 
-
+// Usando Aura.Router para generar la primer pagina
 $app->get('/', function ($request, $response, $next) {
     $response->getBody()->write('Hola!');
     return $response;
